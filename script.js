@@ -12,8 +12,10 @@ let pageSize = 5;
 let columnSelc = 'id';
 let orderSelect = 'asc';
 
+const host = 'http://vps-4150137-x.dattaweb.com/8080/api'
+
 window.onload = () => {
-  fetch('http://localhost:8080/api/categories/')
+  fetch(host+'/categories/')
       .then(response => response.json())
       .then(data => populateCategories(data))
       .catch(console.error);
@@ -55,7 +57,7 @@ function searchProducts() {
     columnSelc && `column=${columnSelc}`
   ].filter(Boolean);
 
-  const url = `http://localhost:8080/api/products/?${params.join('&')}`;
+  const url = host+`/products/?${params.join('&')}`;
   document.getElementById('loadingOverlay').style.display = 'block';
 
   console.log(url);
