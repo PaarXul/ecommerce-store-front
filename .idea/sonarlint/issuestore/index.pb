@@ -15,3 +15,8 @@ index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
 script2.js,a\6\a629a2373b4c26c2b227ec6b708b9d3e836e0f94
 ;
 index2.html,e\e\ee7a83c6261516abe22033c313060883d9589151
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
