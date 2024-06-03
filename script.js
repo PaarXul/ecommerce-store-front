@@ -12,7 +12,7 @@ let pageSize = 5;
 let columnSelc = 'id';
 let orderSelect = 'asc';
 
-const host = 'http://vps-4150137-x.dattaweb.com/8080/api'
+const host = 'http://vps-4150137-x.dattaweb.com:8080/api'
 
 window.onload = () => {
   fetch(host+'/categories/')
